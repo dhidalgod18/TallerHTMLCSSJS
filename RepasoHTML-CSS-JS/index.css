@@ -1,0 +1,27 @@
+.Contenedor{
+    margin: 20px;
+    border: 10px solid red;
+    padding: 20px;
+}
+
+#valor_resultado{
+    color: red;
+}
+
+#Boton{
+    width: 200px;
+    border-radius: 50%;
+    background-color: blue;
+}
+
+#Boton:hover{
+    background-color: red;
+}
+
+table, th, tr, td{
+    border: 1px solid black;
+}
+
+h1.amarillo{
+    background-color: yellow;
+}
