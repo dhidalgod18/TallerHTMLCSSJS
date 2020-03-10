@@ -3,4 +3,62 @@ h1{
    font-size: 90px;
    text-align: center;
    }
-   footer
+   footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: red;
+        color: white;
+        text-align: center;
+   }
+
+   .tabla{
+	
+	
+	
+}
+h1{
+	font-size:50px;
+}
+table td{
+	border: 1px solid #000;
+	padding:15px;
+	
+}
+.colores{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas1{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas2{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas3{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas4{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas5{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas6{
+	background:#34495E;
+	color:#F0F3F4;
+}
+.horas7{
+	background:#34495E;
+	color:#F0F3F4;
+}
