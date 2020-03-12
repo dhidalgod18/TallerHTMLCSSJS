@@ -6,84 +6,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+
 </head>
 
 <body>
+
+    /* IMAGEN TITULO */
 
     <img src="Imagenes/cabeza.png" />
 
     <nav id="Ejercicios">
         <div>
             <h1><b>EJERCICIO 1</b></h1>
-            <h1 align="center">Horario personal de clases</h1>
-            <link rel="stylesheet" href="ejercicio1.css" />
+            <h1 align="center">HORARIO DE CLASES</h1>
             <br />
             <div align=center width=100%>
-                <table class="tabla">
+                <table class="tablahorario ">
                     <tr class="colores">
-                        <td class="celdas">Horas</td>
+                        <td class="celdas esquina1 ">Horas</td>
                         <td>Lunes</td>
                         <td>Martes</td>
                         <td>Miercoles</td>
                         <td>Jueves</td>
-                        <td>Viernes</td>
+                        <td class="esquina3">Viernes</td>
                     </tr>
-                    <tr>
+                    <tr class="horario">
                         <td class="horas">7:00 AM</td>
                         <td></td>
+
                         <td></td>
-                        <td>Programacion 2</td>
-                        <td>estr.del<br />pensamiento 3 -<br /> desc. y analisis<br />proc.mult</td>
-                        <td>Programacion 2</td>
+                        <td>Programación 2</td>
+                        <td>estructuración 3</td>
+                        <td>Programación 2</td>
                     </tr>
                     <tr>
-                        <td class="horas1">8:00 AM</td>
+                        <td class="horas">8:00 AM</td>
                         <td></td>
                         <td></td>
-                        <td>Programacion 2</td>
-                        <td>estr.del<br />pensamiento 3 -<br /> desc. y analisis<br />proc.mult</td>
-                        <td>Programacion 2</td>
+                        <td>Programación 2</td>
+                        <td>estructuración 3</td>
+                        <td>Programación 2</td>
 
                     </tr>
                     <tr>
-                        <td class="horas2">9:00 AM</td>
-                        <td>Fisica 2</td>
-                        <td>Programacion 2</td>
-                        <td>Fisica 2</td>
-                        <td>proyecto nucleo</td>
-                        <td>Fisica 2</td>
-
-
-                    </tr>
-                    <tr>
-                        <td class="horas3">10:00 AM</td>
-                        <td>Fisica 2</td>
-                        <td>Programacion 2</td>
-                        <td>Fisica 2</td>
-                        <td>proyecto nucleo</td>
+                        <td class="horas">9:00 AM</td>
+                        <td>Física 2</td>
+                        <td>Programación 2</td>
+                        <td>Física 2</td>
+                        <td>proyecto núcleo</td>
                         <td>Fisica 2</td>
 
                     </tr>
                     <tr>
-                        <td class="horas4">11:00 AM</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
-                        <td>Estadistica y probabilidad</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
-                        <td>Estadistica y probabilidad</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
+                        <td class="horas">10:00 AM</td>
+                        <td>Física 2</td>
+                        <td>Programación 2</td>
+                        <td>Física 2</td>
+                        <td>proyecto núcleo</td>
+                        <td>Física 2</td>
 
                     </tr>
                     <tr>
-                        <td class="horas5">12:00 AM</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
-                        <td>Estadistica y probabilidad</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
-                        <td>Estadistica y probabilidad</td>
-                        <td>Matematicas 2-<br /> Calc integral + <br /> ecuaciones dif </td>
+                        <td class="horas">11:00 AM</td>
+                        <td>Matematicas Integral</td>
+                        <td>Estadística y probabilidad</td>
+                        <td>Matematicas Integral</td>
+                        <td>Estadística y probabilidad</td>
+                        <td>Matematicas Integral</td>
                     </tr>
-
                     <tr>
-                        <td class="horas6">14:00 AM</td>
+                        <td class="horas">12:00 AM</td>
+                        <td>Matematicas Integral</td>
+                        <td>Estadística y probabilidad</td>
+                        <td>Matematicas Integral</td>
+                        <td>Estadística y probabilidad</td>
+                        <td>Matematicas Integral</td>
+                    </tr>
+                    <tr>
+                        <td class="horas">14:00 AM</td>
                         <td>Estructura de Datos</td>
                         <td></td>
                         <td>Estructura de Datos</td>
@@ -91,21 +92,76 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td class="horas7">15:00 AM</td>
+                        <td class="horas esquina2 ">15:00 AM</td>
                         <td>Estructura de Datos</td>
                         <td></td>
                         <td>Estructura de Datos</td>
                         <td></td>
-                        <td></td>
+                        <td class="esquina4"></td>
                     </tr>
                 </table>
             </div>
         </div>
-        <h1><b>EJERCICIO 2</b></h1>
-        <h1><b>EJERCICIO 3</b></h1>
-        <h1><b>EJERCICIO 4</b></h1>
-        <h1><b>EJERCICIO 5</b></h1>
-        <h1><b>EJERCICIO 6</b></h1>
+
+        <div class="cuadrado">
+            <h1><b>EJERCICIO 2</b></h1>
+
+            <div id="contenido">
+                <div class="caja" id="rojo">Rojo</div>
+                <div class="caja" id="azul">Azul</div>
+                <div class="caja" id="negro">Negro</div>
+                <div class="caja" id="amarillo">Amarillo</div>
+                <div class="caja" id="verde">Verde</div>
+            </div>
+
+        </div>
+
+        <div>
+            <h1><b>EJERCICIO 3</b></h1>
+        </div>
+
+        <div>
+            <h1><b>EJERCICIO 4</b></h1>
+        </div>
+        <div>
+            <h1><b>EJERCICIO 5</b></h1>
+        </div>
+        <div>
+            <h1><b>EJERCICIO 6</b></h1>
+            <table class="tablacalculadora">
+                <tr>
+                    <td colspan="4">
+                        <input type="text" name="campo" id="campo" class="caja" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><input href="#"  type="button" id="1" alt="1" value="1" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="2" alt="2" value="2" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="3" alt="3" value="3" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="4" alt="4" value="+" class="boton" onclick="operador(this)"></td>
+                </tr>
+                <tr>
+                    <td><input href="#"  type="button" id="5" alt="5" value="4" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="6" alt="6" value="5" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="7" alt="7" value="6" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="8" alt="8" value="-" class="boton" onclick="operador(this)"></td>
+                </tr>
+
+                <tr>
+                    <td><input href="#"  type="button" id="9" alt="9" value="7" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="10" alt="10" value="8" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="11" alt="11" value="9" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#"  type="button" id="12" alt="12" value="*" class="boton" onclick="operador(this)"></td>
+                </tr>
+                <tr>
+                    <td><input href="#"  type="button" id="13" alt="13" value="c" class="boton" onclick="limpiar()"></td>
+                    <td><input href="#"  type="button" id="14" alt="14" value="0" class="boton" onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="15" alt="15" value="=" class="boton" onclick="operaciones()"></td>
+                    <td><input href="#" type="button" id="16" alt="16" value="/" class="boton" onclick="operador(this)"></td>
+                </tr>
+            </table>
+        </div>
+
     </nav>
 
     <footer id="pie de pagina">
