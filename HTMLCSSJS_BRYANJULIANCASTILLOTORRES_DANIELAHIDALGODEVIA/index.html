@@ -12,8 +12,8 @@
 
 <body>
 
-    /* IMAGEN TITULO */
 
+    <!-- IMAGEN TITULO -->
     <img src="Imagenes/cabeza.png" />
 
     <nav id="Ejercicios">
@@ -116,48 +116,77 @@
 
         </div>
 
-        <div>
+        <div class="punto3">
             <h1><b>EJERCICIO 3</b></h1>
+            <div id="campos">
+                <input type="text" name="campo" id="campo" class="caja1" />
+                <input type="text" name="campo" id="campo1" class="caja2" />
+                <input type="text" name="campo" id="campo2" class="caja3" />
+                <input type="text" name="campo" id="campo3" class="caja4" />
+                <input type="text" name="campo" id="campo5" class="caja5" />
+            </div>
+            <div id="respuestas"></div>
+            <input type="button" id="1" name="1" value="calcular" class="boton3" onclick="operaciones3()">
+            <label for="Name" class="c1">Numero menor:</label>
+            <input type="text" name="campo" id="campo6" class="caja6" />
+            <label for="Name" class="c2">Numero mayor:</label>
+            <input type="text" name="campo" id="campo7" class="caja7" />
+            <label for="Name" class="c3">Promedio:</label>
+            <input type="text" name="campo" id="campo8" class="caja8" />
+
         </div>
 
-        <div>
-            <h1><b>EJERCICIO 4</b></h1>
-        </div>
-        <div>
-            <h1><b>EJERCICIO 5</b></h1>
-        </div>
-        <div>
+
+        
+      
+        <div class="punto6">
             <h1><b>EJERCICIO 6</b></h1>
             <table class="tablacalculadora">
                 <tr>
                     <td colspan="4">
-                        <input type="text" name="campo" id="campo" class="caja" />
+                        <input type="text" name="campo" id="campocalculadora" class="caja" />
                     </td>
                 </tr>
                 <tr>
-                    <td><input href="#"  type="button" id="1" alt="1" value="1" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="2" alt="2" value="2" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="3" alt="3" value="3" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="4" alt="4" value="+" class="boton" onclick="operador(this)"></td>
+                    <td><input href="#" type="button" id="1" alt="1" value="1" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="2" alt="2" value="2" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="3" alt="3" value="3" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="4" alt="4" value="+" class="boton6" onclick="operador(this)">
+                    </td>
                 </tr>
                 <tr>
-                    <td><input href="#"  type="button" id="5" alt="5" value="4" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="6" alt="6" value="5" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="7" alt="7" value="6" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="8" alt="8" value="-" class="boton" onclick="operador(this)"></td>
+                    <td><input href="#" type="button" id="5" alt="5" value="4" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="6" alt="6" value="5" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="7" alt="7" value="6" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="8" alt="8" value="-" class="boton6" onclick="operador(this)">
+                    </td>
                 </tr>
 
                 <tr>
-                    <td><input href="#"  type="button" id="9" alt="9" value="7" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="10" alt="10" value="8" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="11" alt="11" value="9" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#"  type="button" id="12" alt="12" value="*" class="boton" onclick="operador(this)"></td>
+                    <td><input href="#" type="button" id="9" alt="9" value="7" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="10" alt="10" value="8" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="11" alt="11" value="9" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="12" alt="12" value="*" class="boton6"
+                            onclick="operador(this)"></td>
                 </tr>
                 <tr>
-                    <td><input href="#"  type="button" id="13" alt="13" value="c" class="boton" onclick="limpiar()"></td>
-                    <td><input href="#"  type="button" id="14" alt="14" value="0" class="boton" onclick="myFunction(this)"></td>
-                    <td><input href="#" type="button" id="15" alt="15" value="=" class="boton" onclick="operaciones()"></td>
-                    <td><input href="#" type="button" id="16" alt="16" value="/" class="boton" onclick="operador(this)"></td>
+                    <td><input href="#" type="button" id="13" alt="13" value="c" class="boton6" onclick="limpiar()">
+                    </td>
+                    <td><input href="#" type="button" id="14" alt="14" value="0" class="boton6"
+                            onclick="myFunction(this)"></td>
+                    <td><input href="#" type="button" id="15" alt="15" value="=" class="boton6"
+                            onclick="operaciones(this)"></td>
+                    <td><input href="#" type="button" id="16" alt="16" value="/" class="boton6"
+                            onclick="operador(this)"></td>
                 </tr>
             </table>
         </div>

@@ -1,6 +1,7 @@
 /* TITULOS*/
 
 h1 {
+	position: relative;
 	font: oblique bold 120% cursive;
 	font-size: 90px;
 	text-align: center;
@@ -10,7 +11,7 @@ h1 {
 /* PIE DE PAGINA */
 
 footer {
-	position: relative;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -167,10 +168,197 @@ div#verde:hover {
 	background: #82E0AA;
 	border-radius: 15px;
 }
+/* EJERCICIO 3*/
+.punto3{
+	position: relative;
+}
+.campos{
+	position: relative;
+}
+.respuestas{
+	position: relative;
+}
+.caja1{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background-color:white;
+	top: 0px;
+    left:400px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+     
+    
+
+}
+.caja2{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background-color:white;
+    top: 0px;
+    left: 430px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+    
+}
+.caja3{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background-color:white;
+    top: 0px;
+    left: 460px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+    
+
+}
+.caja4{
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background-color:white;
+    top: 0px;
+    left: 490px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+    
+
+}
+.caja5{
+	
+    position: relative;
+    width: 75px;
+    height: 40px;
+    background-color:white;
+    top: 0px;
+    left: 520px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+
+}
+.boton3{
+	text-transform: uppercase;
+	position: relative;
+    width: 515px;
+    height: 40px;
+    background-color:rgba(18, 133, 241, 0.986);
+    top: 20px;
+    left: 410px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+}
+.c1{
+	position:relative;
+    top: 100px;
+	left: 50px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+	text-transform: uppercase;
+}
+.c2{
+	text-transform: uppercase;
+    position: relative;
+	top: 160px;
+	left: -220px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+}
+.c3{
+	text-transform: uppercase;
+    position: relative;
+	top: 210px;
+    left: -450px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+}
+.caja6{
+    position: relative;
+    width: 75px;
+    height: 25px;
+    background-color:white;
+    top: 100px;
+    left: 80px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+
+}
+.caja7{
+    position: relative;
+    width: 75px;
+    height: 25px;
+    background-color:white;
+    top: 160px;
+    left: -180px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+
+}
+.caja8{
+    position: relative;
+    width: 75px;
+    height: 25px;
+    background-color:white;
+    top: 210px;
+    left: -380px;
+	border-radius: 10px;
+	font: oblique bold 120% cursive;
+
+}
+
+/* EJERCICIO 4*/
+.pu4{
+	top: 200px;
+	position: relative;
+}
+.punto4{
+	top: 300px;
+	position: relative;
+}
+.texto{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color:white;
+    top: 30px;
+    left: 100px;
+    border-radius: 10px;
+    resize: none;
+}
+.botoncalculapalabras{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    background-color:white;
+    top: 50px;
+    left: -50px;
+    border-radius: 10px;
+}
+.caja{
+    position: relative;
+    top: 280px;
+    left:100 px;
+   
+}
+.campodelaspalabras{
+    position: relative;
+    width: 200px;
+    height: 20px;
+    background-color:honeydew;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+}
+
 
 /* EJERCICIO 6*/
-
+.punto6{
+	top: 300px;
+	position: relative;
+}
 .tablacalculadora {
+	top: 30px;
   position: relative;  
   margin:auto;
   display: flex;
@@ -180,7 +368,7 @@ div#verde:hover {
 bottom: 0;
 }
 
-.boton {
+.boton6 {
 	width: calc(100px);
 	height: calc(100px);
 	background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
@@ -194,11 +382,12 @@ bottom: 0;
 	color: white;
 	
 }
-input {
+.campocalculadora {
+	font: oblique bold 120% cursive;
 	text-decoration:none;
   }
 
-.boton:hover {
+.boton6:hover {
 	animation:slidebg 2s linear infinite;
   }
   
@@ -208,6 +397,10 @@ input {
 	}
   } 
   .caja{
+	font: oblique bold 120% cursive;
+	position: relative;
+	top: 0px;
+	left:-10px;
 	width: 490px;
 	height: 60px;
 	border-radius: 25px;

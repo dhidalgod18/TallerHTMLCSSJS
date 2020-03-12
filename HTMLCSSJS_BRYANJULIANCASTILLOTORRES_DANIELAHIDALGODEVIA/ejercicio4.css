@@ -1,4 +1,4 @@
-.texto{
+.textoconlapalabra{
     position: absolute;
     width: 300px;
     height: 200px;
@@ -8,7 +8,7 @@
     border-radius: 10px;
     resize: none;
 }
-.boton{
+.botoncalculalaspalabras{
     position: absolute;
     width: 200px;
     height: 20px;
@@ -17,13 +17,13 @@
     left: 55px;
     border-radius: 10px;
 }
-.caja{
+.numerodepalabras{
     position: absolute;
     top: 280px;
     left:10 px;
    
 }
-.campo1{
+.campodelaspalabras{
     position: absolute;
     width: 200px;
     height: 20px;
