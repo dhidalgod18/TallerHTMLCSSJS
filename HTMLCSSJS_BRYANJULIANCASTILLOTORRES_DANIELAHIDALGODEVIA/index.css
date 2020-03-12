@@ -307,49 +307,6 @@ div#verde:hover {
 
 }
 
-/* EJERCICIO 4*/
-.pu4{
-	top: 200px;
-	position: relative;
-}
-.punto4{
-	top: 300px;
-	position: relative;
-}
-.texto{
-    position: relative;
-    width: 300px;
-    height: 200px;
-    background-color:white;
-    top: 30px;
-    left: 100px;
-    border-radius: 10px;
-    resize: none;
-}
-.botoncalculapalabras{
-    position: relative;
-    width: 200px;
-    height: 30px;
-    background-color:white;
-    top: 50px;
-    left: -50px;
-    border-radius: 10px;
-}
-.caja{
-    position: relative;
-    top: 280px;
-    left:100 px;
-   
-}
-.campodelaspalabras{
-    position: relative;
-    width: 200px;
-    height: 20px;
-    background-color:honeydew;
-    top: 0px;
-    left: 0px;
-    border-radius: 10px;
-}
 
 
 /* EJERCICIO 6*/
