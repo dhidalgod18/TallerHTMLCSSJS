@@ -2,7 +2,7 @@ var cadena='';
 var operacion = '';
 var resultado =0;
 function myFunction(btn){
-	var valor = btn.value;	
+	var valor = btn.value;
 	cadena = cadena + valor;
 	var caja = document.getElementById('campo');
 	caja.value = cadena;	

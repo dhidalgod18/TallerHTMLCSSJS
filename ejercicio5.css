@@ -1,0 +1,47 @@
+.texto{
+    position: relative;
+    left: 10px;
+    width: 400;
+    height: 150;
+    top: 30px;
+    border-radius: 20px;
+    background-color: honeydew;
+    resize: none;
+    
+    
+}
+.boton{
+    position: relative;
+    left: -400px;
+    top:60px;
+    width: 400;
+    height: 20;
+
+
+}
+.a{
+    position: relative;
+    left: 8px;
+    top:90px;
+}
+.e{
+    position: relative;
+    left: 8px;
+    top:120px;
+}
+.i{
+    position: relative;
+    left: 8px;
+    top:150px;
+}
+.o{
+    position: relative;
+    left: 8px;
+    top:180px;
+
+}
+.u{
+    position: relative;
+    left: 8px;
+    top:210px;
+}
