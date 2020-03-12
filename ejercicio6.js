@@ -22,6 +22,7 @@ function operaciones(){
 
 	var caja = document.getElementById('campo');
 	if(operacion != '' && operacion == '+'){
+		
 		operador = cadena.indexOf(operacion);
 		num1= parseInt(cadena.substr(0,operador))
 		num2 = parseInt(cadena.substr(operador+1, operador))
